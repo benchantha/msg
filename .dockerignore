@@ -1,0 +1,36 @@
+# Dependencies (installed fresh in container)
+node_modules
+vendor
+
+# Build artifacts (rebuilt in container)
+public/build
+public/hot
+
+# Git
+.git
+.gitignore
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE & editor
+.idea
+.vscode
+.fleet
+.nova
+.zed
+
+# Logs & cache
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*
+
+# Misc
+*.log
+.DS_Store
+docker/mysql_data
+docker/redis_data
